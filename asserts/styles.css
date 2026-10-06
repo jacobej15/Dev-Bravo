@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: Black;
+    color: white;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 40px 20px;
+}
+
+.login-card {
+    width: 350px;
+    padding: 35px;
+
+    background: grey;
+    border-top: 6px solid yellow;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 25px purple;
+
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: yellow;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 2px solid purple;
+    border-radius: 5px;
+
+    background: black;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border-color: yellow;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+
+    background: purple;
+    color: white;
+
+    border: 2px solid yellow;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: yellow;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+footer {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border: 5px solid yellow;
+    border-radius: 8px;
+}
+
+#user-greeting {
+    margin-top: 15px;
+    color: purple;
+    font-weight: bold;
+}
