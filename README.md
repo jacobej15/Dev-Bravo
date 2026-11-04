@@ -1,4 +1,4 @@
-# DOM Time
+# Dev Bravo
 
 > Welcome to UNA — a simple University of North Alabama sign-in and campus information front-end.
 
